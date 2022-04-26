@@ -1,0 +1,59 @@
+/* CSS for Tab */
+.tab-content {
+  margin-top: 5.5rem;
+}
+.nav-tabs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: none;
+  justify-content: center;
+  padding: 0.5rem;
+  z-index: 999;
+  background-color: #fff;
+  width: 415px;
+  margin: 0 auto;
+  border-radius: 8px 8px 0 0;
+  margin-top: 14px;
+}
+.initial-header {
+  border-radius: 8px 8px;
+}
+/* Top header */
+.after-header {
+  position: fixed;
+  bottom: 0;
+  top: unset;
+}
+.after-header + .tab-content {
+  margin-top: 0;
+}
+.nav-item,
+.nav-item active {
+  font-size: 20px;
+  color: #000;
+  font-weight: 300;
+}
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+.nav-item button {
+  color: #000;
+  text-transform: uppercase;
+}
+@media (max-width: 430px) {
+  .nav-tabs {
+    width: 315px;
+  }
+  .nav-item button {
+    font-size: 14px;
+  }
+  .tab-content {
+    margin-top: 6.5rem;
+  }
+}

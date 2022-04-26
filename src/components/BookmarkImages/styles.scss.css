@@ -1,0 +1,12 @@
+/* Bookmark Classes */
+.card-overlay.bookmarked {
+  background-color: #ffffff8a;
+}
+.card-overlay.bookmarked svg {
+  color: black;
+}
+.card-overlay.bookmarked h5 {
+  color: black;
+  font-style: normal;
+  font-weight: 800;
+}
